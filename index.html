@@ -5,14 +5,61 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <meta name="description" content="J.C Epiphany Limited: Premium concrete home decor, handcrafted natural soaps, and organic fertilizers. Discover our eco-friendly collection."/>
   <meta name="keywords" content="eco-friendly, concrete decor, natural soaps, organic fertilizers, custom supplies, smart apps, handmade"/>
-  
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="https://jcepiphany.com/" />
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://jcepiphany.com/" />
+  <meta property="og:title" content="J.C Epiphany Limited | Eco-Friendly & Handmade Products" />
+  <meta property="og:description" content="Premium concrete home décor, handcrafted natural soaps, and organic fertilizers. Discover our eco-friendly collection." />
+  <meta property="og:image" content="https://jcepiphany.com/jc-logo.jpg" />
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="J.C Epiphany Limited | Eco-Friendly & Handmade Products" />
+  <meta name="twitter:description" content="Premium concrete home décor, handcrafted natural soaps, and organic fertilizers. Discover our eco-friendly collection." />
+  <meta name="twitter:image" content="https://jcepiphany.com/jc-logo.jpg" />
+
   <!-- Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
   
   <title>J.C Epiphany Limited | Eco-Friendly & Handmade Products</title>
+  <link rel="icon" href="jc-logo.jpg" type="image/jpeg" />
   <link rel="stylesheet" href="styles.css"/>
+
+  <!-- Structured Data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "J.C Epiphany Limited",
+    "url": "https://jcepiphany.com/",
+    "logo": "https://jcepiphany.com/jc-logo.jpg",
+    "foundingDate": "2013",
+    "sameAs": [
+      "https://jcepiphany.myshopify.com/",
+      "https://www.ebay.com/usr/jc-epiphany-online-shop"
+    ],
+    "contactPoint": [{
+      "@type": "ContactPoint",
+      "contactType": "customer service",
+      "telephone": "+1-876-774-7372",
+      "areaServed": "JM",
+      "availableLanguage": ["en"]
+    }]
+  }
+  </script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "url": "https://jcepiphany.com/",
+    "name": "J.C Epiphany Limited"
+  }
+  </script>
 </head>
 <body>
 
@@ -57,9 +104,9 @@
         </div>
         <div class="store-item">
           <div class="store-content">
-            <h3>Ebay Store</h3>
-            <p>Browse our Ebay store for soaps, unique supplies, local Jamaican treats, and more great finds.</p>
-            <a href="https://www.ebay.com/usr/jc-epiphany-online-shop" target="_blank" rel="noopener noreferrer" class="button">Visit Us on Ebay</a>
+            <h3>eBay Store</h3>
+            <p>Browse our eBay store for soaps, unique supplies, local Jamaican treats, and more great finds.</p>
+            <a href="https://www.ebay.com/usr/jc-epiphany-online-shop" target="_blank" rel="noopener noreferrer" class="button">Visit Us on eBay</a>
           </div>
         </div>
         <div class="store-item">
@@ -145,15 +192,16 @@
     </section>
   </main>
 
-  <!-- Footer - NOW WITH WORKING WHATSAPP LINK -->
+  <!-- Footer -->
   <footer class="main-footer">
-    <a href="https://wa.me/18767747372" target="_blank" rel="noopener noreferrer" class="whatsapp-button">
-      <img src="whatsapp-icon.png" alt="WhatsApp" class="whatsapp-icon">
-      <span>Chat with us on WhatsApp</span>
+    <a href="https://wa.me/18767747372" target="_blank" rel="noopener noreferrer" class="whatsapp-button" aria-label="Message us on WhatsApp">
+      <img src="whatsapp-icon.png" alt="WhatsApp Icon"> Message us on WhatsApp
     </a>
-    <p>&copy; 2025 J.C Epiphany Limited. All rights reserved.</p>
+    <div class="footer-bottom">
+      <p>&copy; 2025 J.C Epiphany Limited. All rights reserved. <a href="privacy-policy.html">Privacy Policy</a></p>
+      <p class="recaptcha-notice">This site is protected by reCAPTCHA and the Google Privacy Policy and Terms of Service apply.</p>
+    </div>
   </footer>
-
-  <script src="scripts.js"></script>
+  <script src="scripts.js" defer></script>
 </body>
 </html>

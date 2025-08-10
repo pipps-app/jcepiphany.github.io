@@ -59,7 +59,7 @@ a:hover {
 }
 
 .logo-container img {
-  max-width: 120px;
+  max-width: 160px;
   height: auto;
   margin: 0 auto;
 }
@@ -302,6 +302,10 @@ a:hover {
   .resource-grid {
     grid-template-columns: repeat(2, 1fr);
   }
+  /* Larger logo on tablets */
+  .logo-container img {
+    max-width: 180px;
+  }
 }
 
 @media (min-width: 900px) {
@@ -317,5 +321,9 @@ a:hover {
   .about-content {
     grid-template-columns: repeat(2, 1fr);
     text-align: left;
+  }
+  /* Larger logo on desktops */
+  .logo-container img {
+    max-width: 200px;
   }
 }
